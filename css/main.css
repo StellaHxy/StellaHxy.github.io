@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #08b05b;
+  background: #61624a;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2659,4 +2659,16 @@ embed {
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
+}
+body {
+  background: url("D:Hexo-Blogthemesbck");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.content {
+  border-radius: 10px;
+  margin-top: 60px;
+  background: #fffafa none repeat scroll !important;
 }
